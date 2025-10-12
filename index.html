@@ -539,25 +539,6 @@
             box-shadow: 0 5px 15px rgba(0, 217, 255, 0.5);
         }
 
-        .video-container {
-            position: relative;
-            padding-bottom: 56.25%;
-            height: 0;
-            overflow: hidden;
-            border-radius: 10px;
-            margin-top: 1rem;
-            border: 2px solid var(--primary);
-        }
-
-        .video-container iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border-radius: 10px;
-        }
-
         .contact {
             background: var(--dark);
             text-align: center;
@@ -760,7 +741,7 @@
 
                 <div class="project-card" onclick="openModal('deeplearning')">
                     <div class="project-image">
-                        <i class="fas fa-chart-line"></i>
+                        <img src="images/transformers.png" alt="Deep Learning">
                     </div>
                     <div class="project-content">
                         <h3 class="project-title">Deep Learning GDP Forecasting</h3>
@@ -854,7 +835,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <a href="https://github.com/LirChen/FitFlow" target="_blank" class="modal-link">
+                <a href="https://github.com/ofiz/FitFlow.git" target="_blank" class="modal-link">
                     <i class="fab fa-github"></i> View Code
                 </a>
             </div>
@@ -886,12 +867,6 @@
                         <li><strong>Audit Logging:</strong> Comprehensive UserEvent tracking with timestamps and IP addresses</li>
                         <li><strong>Password Policy:</strong> YAML-based configuration with history tracking and blacklist</li>
                     </ul>
-                </div>
-
-                <div class="modal-section">
-                    <h3>Security Demonstrations</h3>
-                    <p><strong>XSS Test Case:</strong> Insert <code>&lt;script&gt;alert('XSS')&lt;/script&gt;</code> in customer name field - properly escaped to prevent execution</p>
-                    <p><strong>SQL Injection Test:</strong> Try <code>test'; DROP TABLE users; --</code> in login field - parameterized queries prevent execution</p>
                 </div>
 
                 <div class="modal-section">
@@ -932,6 +907,26 @@
                 <p class="project-subtitle">Advanced Economic Prediction</p>
             </div>
             <div class="modal-body">
+                <div class="modal-images">
+                    <div class="modal-image">
+                        <img src="images/transformers.png" alt="Transformer Architecture">
+                    </div>
+                    <div class="modal-image">
+                        <img src="images/TCN.png" alt="TCN Model">
+                    </div>
+                    <div class="modal-image">
+                        <img src="images/WAVENET.png" alt="WaveNet Model">
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Additional Visualizations</h3>
+                    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin-top: 1rem;">
+                        <img src="images/TOPICS.png" alt="Research Topics" style="width:100%; border-radius:8px; border:1px solid var(--primary);">
+                        <img src="images/RAG.png" alt="Analysis" style="width:100%; border-radius:8px; border:1px solid var(--primary);">
+                    </div>
+                </div>
+
                 <div class="modal-section">
                     <h3>Project Overview</h3>
                     <p>State-of-the-art deep learning project for economic forecasting, implementing multiple advanced neural network architectures to predict GDP trends with high accuracy using temporal patterns in macroeconomic data.</p>

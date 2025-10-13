@@ -302,6 +302,49 @@
             margin-top: 0.5rem;
         }
 
+         /* Tech Stack */
+        .tech-stack {
+            background: var(--dark);
+        }
+
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .tech-item {
+            background: rgba(0, 217, 255, 0.1);
+            padding: 1.5rem;
+            border-radius: 15px;
+            text-align: center;
+            transition: all 0.3s;
+            border: 2px solid transparent;
+        }
+
+        .tech-item:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary);
+            box-shadow: 0 8px 25px rgba(0, 217, 255, 0.4);
+            background: rgba(0, 217, 255, 0.15);
+        }
+
+        .tech-item i {
+            font-size: 3rem;
+            background: var(--gradient-1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1rem;
+        }
+
+        .tech-item span {
+            display: block;
+            color: var(--text-light);
+            font-weight: 600;
+        }
+        
         .projects {
             background: #0f1329;
         }

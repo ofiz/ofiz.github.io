@@ -890,6 +890,44 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="project-card" onclick="openModal('pdfmerger')">
+                    <div class="project-image">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">PDF Merger Web App</h3>
+                        <p class="project-description">
+                            Secure web application for merging PDFs with drag-and-drop functionality, 
+                            mobile-responsive design, and session-based security.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Flask</span>
+                            <span class="tag">PyPDF2</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Cloud</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" onclick="openModal('costtracker')">
+                    <div class="project-image">
+                        <i class="fas fa-wallet"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Cost Tracker API</h3>
+                        <p class="project-description">
+                            RESTful API for expense management with computed monthly reporting, 
+                            MongoDB Atlas integration, and comprehensive test coverage.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Express</span>
+                            <span class="tag">MongoDB</span>
+                            <span class="tag">REST API</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -1109,6 +1147,241 @@
             <div class="modal-footer">
                 <a href="https://github.com/ofiz/Deep_Learning_USA_GDP_Project" target="_blank" class="modal-link">
                     <i class="fab fa-github"></i> View Code
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="fitlife" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close" onclick="closeModal('fitlife')">&times;</span>
+                <h2>FitLife - Fitness Tracking App</h2>
+                <p class="project-subtitle">Comprehensive Fitness and Nutrition System</p>
+            </div>
+            <div class="modal-body">
+                <div class="modal-section">
+                    <h3>Video Demo</h3>
+                    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 10px; margin-top: 1rem; border: 2px solid var(--primary);">
+                        <iframe 
+                            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 10px;" 
+                            src="https://www.youtube.com/embed/0C77g-xDIg8" 
+                            title="FitLife Demo" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Project Overview</h3>
+                    <p>A comprehensive fitness and nutrition tracking system built with FastAPI and React. Features personalized workout tracking, nutrition logging, weight monitoring, and AI-powered fitness advice powered by Mistral AI.</p>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li><strong>User Authentication:</strong> Secure JWT-based authentication with password hashing</li>
+                        <li><strong>Workout Tracking:</strong> Log exercise routines with duration tracking and history views</li>
+                        <li><strong>Nutrition Logs:</strong> Track daily food intake with calorie counting and visual charts</li>
+                        <li><strong>Weight Monitoring:</strong> Record weight changes over time with interactive graphs</li>
+                        <li><strong>Personalized Calorie Recommendations:</strong> Get customized calorie targets based on physical attributes and fitness goals</li>
+                        <li><strong>Downloadable Training Programs:</strong> Access specialized workout plans (muscle building, weight loss, etc.)</li>
+                        <li><strong>AI Fitness Bot:</strong> Get answers to fitness and nutrition questions powered by Mistral AI LLM technology</li>
+                    </ul>
+                </div>
+
+                <div class="modal-section">
+                    <h3>LLM Chatbot Microservice</h3>
+                    <ul>
+                        <li><strong>Mistral 7B Foundation Model:</strong> Leverages the powerful open-source LLM optimized for conversational applications</li>
+                        <li><strong>Context-Aware Processing:</strong> Advanced attention mechanisms for improved understanding of fitness-related queries</li>
+                        <li><strong>Isolated Microservice:</strong> Runs as independent service for better scalability and resource allocation</li>
+                        <li><strong>Domain-Specific Knowledge:</strong> Extensive fitness, nutrition, and wellness information</li>
+                        <li><strong>Evidence-Based Responses:</strong> Provides scientifically-backed fitness and nutrition information</li>
+                    </ul>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Technologies Used</h3>
+                    <ul>
+                        <li><strong>Backend:</strong> FastAPI (async high-performance), SQLite with SQLAlchemy ORM</li>
+                        <li><strong>Frontend:</strong> React with Chart.js for data visualization, Bootstrap & Tailwind CSS</li>
+                        <li><strong>AI:</strong> Mistral AI 7B with NLP domain adaptation for fitness terminology</li>
+                        <li><strong>Infrastructure:</strong> Docker & Docker Compose for multi-container orchestration</li>
+                        <li><strong>Testing:</strong> Jest & React Testing Library for comprehensive test coverage</li>
+                    </ul>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Technical Achievements</h3>
+                    <ul>
+                        <li>Implemented microservices architecture with isolated AI chatbot service</li>
+                        <li>Built efficient data persistence layer with SQLite and SQLAlchemy ORM</li>
+                        <li>Created interactive data visualizations for workout and nutrition tracking</li>
+                        <li>Integrated Mistral AI for natural language fitness guidance</li>
+                        <li>Containerized deployment with Docker for easy scalability</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="https://github.com/ofiz/FITLIFE-fitness-tracking-ofir-cohen" target="_blank" class="modal-link">
+                    <i class="fab fa-github"></i> View Code
+                </a>
+                <a href="https://youtu.be/0C77g-xDIg8" target="_blank" class="modal-link">
+                    <i class="fas fa-play-circle"></i> Watch Demo
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="pdfmerger" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close" onclick="closeModal('pdfmerger')">&times;</span>
+                <h2>PDF Merger Web Application</h2>
+                <p class="project-subtitle">Secure Document Processing</p>
+            </div>
+            <div class="modal-body">
+                <div class="modal-section">
+                    <h3>Project Overview</h3>
+                    <p>Web-based tool for securely merging multiple PDF files. Features modern UI with drag-and-drop functionality and responsive design for all devices.</p>
+                </div>
+                <div class="modal-section">
+                    <h3>Application Screenshot</h3>
+                    <img src="images/pdf_merger_screenshot.png" alt="PDF Merger Interface" style="width:100%; border-radius:10px; border:2px solid var(--primary); margin-bottom: 2rem;">
+                </div>
+
+                <div class="modal-section">
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li><strong>Drag-and-Drop Interface:</strong> Intuitive file upload with modern UI</li>
+                        <li><strong>Mobile-Responsive Design:</strong> Works seamlessly on all devices</li>
+                        <li><strong>Session-Based Security:</strong> Secure file handling and processing</li>
+                        <li><strong>Cloud Deployment:</strong> Hosted on Railway and Render platforms for public accessibility</li>
+                        <li><strong>Real-time Processing:</strong> Instant PDF merging with progress feedback</li>
+                        <li><strong>Clean Interface:</strong> Simple, intuitive user experience</li>
+                    </ul>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Technologies Used</h3>
+                    <ul>
+                        <li><strong>Backend:</strong> Flask for web framework</li>
+                        <li><strong>PDF Processing:</strong> PyPDF2 for PDF manipulation</li>
+                        <li><strong>Frontend:</strong> Vanilla JavaScript for interactivity</li>
+                        <li><strong>UI:</strong> HTML5/CSS3 for modern design</li>
+                        <li><strong>Deployment:</strong> Cloud hosting on Railway and Render</li>
+                    </ul>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Technical Achievements</h3>
+                    <ul>
+                        <li>Built secure web application with proper file handling</li>
+                        <li>Implemented drag-and-drop functionality with vanilla JavaScript</li>
+                        <li>Created mobile-responsive design for cross-device compatibility</li>
+                        <li>Deployed to multiple cloud platforms for high availability</li>
+                        <li>Designed clean, user-friendly interface</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="https://github.com/ofiz/PDF-merger-web" target="_blank" class="modal-link">
+                    <i class="fab fa-github"></i> View Code
+                </a>
+                <a href="https://pdf-merger-web-xvot.onrender.com/" target="_blank" class="modal-link">
+                    <i class="fas fa-globe"></i> Live App
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="costtracker" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close" onclick="closeModal('costtracker')">&times;</span>
+                <h2>Cost Tracker API - RESTful Expense Management</h2>
+                <p class="project-subtitle">Real-Time Financial Management System</p>
+            </div>
+            <div class="modal-body">
+                <div class="modal-section">
+                    <h3>Video Demo</h3>
+                    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 10px; margin-top: 1rem; border: 2px solid var(--primary);">
+                        <iframe 
+                            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 10px;" 
+                            src="https://www.youtube.com/embed/irVI4yTz3fo" 
+                            title="Cost Tracker Demo" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Project Overview</h3>
+                    <p>A scalable backend service for user expense management featuring advanced Computed Monthly Reporting and automated persistence. Built with Node.js and MongoDB Atlas for cloud-based deployment.</p>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li><strong>Complete RESTful API:</strong> Full CRUD operations for expenses and users</li>
+                        <li><strong>Computed Pattern:</strong> Optimized caching for fast monthly reports grouped by category</li>
+                        <li><strong>MongoDB Atlas Integration:</strong> Cloud NoSQL database with data integrity</li>
+                        <li><strong>System Logging:</strong> Pino/Morgan for tracking API activity and debugging</li>
+                        <li><strong>User Management:</strong> Create users with validation and retrieve calculated totals</li>
+                        <li><strong>Monthly Reports:</strong> Generate reports with automatic caching for past months</li>
+                        <li><strong>Data Validation:</strong> Strict input validation with proper HTTP status codes</li>
+                        <li><strong>Cloud Deployment:</strong> Live on Render platform with health monitoring</li>
+                    </ul>
+                </div>
+
+                <div class="modal-section">
+                    <h3>API Endpoints</h3>
+                    <ul>
+                        <li><strong>POST /api/add:</strong> Creates new cost entry with automatic totalCost update</li>
+                        <li><strong>GET /api/report:</strong> Retrieves monthly expense report grouped by category</li>
+                        <li><strong>GET /api/users/:id:</strong> Gets user details with cumulative total costs</li>
+                        <li><strong>GET /api/about:</strong> Returns team members list</li>
+                    </ul>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Technologies Used</h3>
+                    <ul>
+                        <li><strong>Backend:</strong> Node.js & Express.js for server framework</li>
+                        <li><strong>Database:</strong> MongoDB Atlas (cloud NoSQL) with Mongoose ODM</li>
+                        <li><strong>Middleware:</strong> CORS for security, Morgan for HTTP logging</li>
+                        <li><strong>Logging:</strong> Pino for professional structured logging</li>
+                        <li><strong>Testing:</strong> Python unittest & requests for automated integration tests</li>
+                        <li><strong>Deployment:</strong> Render for cloud hosting</li>
+                    </ul>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Technical Achievements</h3>
+                    <ul>
+                        <li>Implemented computed pattern for optimized monthly report generation</li>
+                        <li>Created comprehensive test coverage with Python integration tests</li>
+                        <li>Designed RESTful API following industry best practices</li>
+                        <li>Built automatic timestamp assignment with backdated entry prevention</li>
+                        <li>Deployed to production with continuous health monitoring</li>
+                        <li>Implemented efficient data retrieval and processing with Mongoose</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="https://github.com/ofiz/Node.js_RESTful_API" target="_blank" class="modal-link">
+                    <i class="fab fa-github"></i> View Code
+                </a>
+                <a href="https://youtu.be/irVI4yTz3fo" target="_blank" class="modal-link">
+                    <i class="fas fa-play-circle"></i> Watch Demo
+                </a>
+                <a href="https://final-project-server-side-h0n0.onrender.com" target="_blank" class="modal-link">
+                    <i class="fas fa-globe"></i> Live API
                 </a>
             </div>
         </div>
